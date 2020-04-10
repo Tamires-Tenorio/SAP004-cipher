@@ -1,0 +1,28 @@
+button {
+    font-size: 20px;
+    
+}
+.text {
+    width: 200px;
+    font-size: 30px;
+    background-color: rgb(156, 194, 156);
+
+}
+
+.text2 {
+    background-color: green;
+    font-size: 20px;
+}
+
+#resultado {
+    margin: 3em;
+    font-size: 30px;
+    background-color: rgb(156, 194, 156);
+    
+}
+.caixaUm {
+   width: 600px;
+   background-color: green;
+   margin: auto;
+   
+}
