@@ -20,7 +20,7 @@ resultado+=String.fromCharCode(novaLetra);
     let resultado="";
 
     for(let contador=0; contador<tamanhoDaPalavra; contador++){
-      let nova=(palavraDigitada.charCodeAt(contador)-90+valorDeslocamento)%26+90
+      let nova=(palavraDigitada.charCodeAt(contador)+65+valorDeslocamento)%26+65
       
       resultado+=String.fromCharCode(nova);
       
