@@ -1,28 +1,31 @@
-button {
-    font-size: 20px;
-    
+.titulo {
+    font-size: 40px;
 }
-.text {
-    width: 200px;
+.fonte-cor-posicao {
+    display: block;
+    width: 500px;
     font-size: 30px;
     background-color: rgb(156, 194, 156);
-
+    margin: auto;
 }
-
-.text2 {
-    background-color: green;
+.texto-simples {
     font-size: 20px;
 }
-
-#resultado {
-    margin: 3em;
-    font-size: 30px;
-    background-color: rgb(156, 194, 156);
-    
+.botao {
+    font-size: 20px;
 }
-.caixaUm {
+.posicao-botao {
+    display: flex;
+    justify-content: center;
+}
+.fundo-verde { content: initial;
+
    width: 600px;
    background-color: green;
    margin: auto;
-   
+}
+.resultado {
+    margin: 3em;
+    font-size: 30px;
+    background-color: rgb(156, 194, 156); 
 }

@@ -6,24 +6,23 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body background="https://italo.com.br/wp-content/uploads/2019/06/matrix.jpeg">
-    
-    <div class="caixaUm">
+    <section class="fundo-verde">
       <h1 class="titulo">Bem vindo ao Codifica!</h1>
-      <p class="text2">Codifique suas senhas aqui, escolha o deslocamento que deseja, digite a palavra que deseja codificar e pronto!</p>
-    <p class="text2">Digite o número do deslocamento que deseja:</p>
-    <input class="number" type="number" id="valorDeslocamento"><br><br>
-    <p class="text2">Digite a palavra que deseja codificar:</p>
-    <input class="text" type="text" id="palavraDigitada"><br><br>
-  
-
-    <button id="botaoCodificar">Codificar</button>
-    <button id="botaoDecodificar">Decodificar</button><br><br>
-  </div>
-    <div class="resultado" id="resultado"></div>
-
-  
+      <p class="texto-simples">Codifique suas senhas aqui, escolha o deslocamento que deseja, digite a palavra que deseja 
+        codificar e pronto!</p>
+      <label class="texto-simples">Digite o número do deslocamento que deseja:
+       <input class="number fonte-cor-posicao" type="number" id="valor-deslocamento">
+      </label>
+      <label class="texto-simples">Digite a palavra que deseja codificar:
+       <input class="fonte-cor-posicao" type="text" id="palavra-digitada">
+      </label>
+    </section>
+    <section class="posicao-botao fundo-verde" > 
+     <button class="botao" id="botao-codificar">Codificar</button>
+     <button class="botao" id="botao-decodificar">Decodificar</button>
+    </section>
+    <section class="resultado" id="resultado"></section> 
     <script src="index.js" type="module"></script>
-  
   </body>
   
 </html>
